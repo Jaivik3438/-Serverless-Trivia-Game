@@ -1,0 +1,198 @@
+
+.my-navbar {
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: fixed;
+    top:0;
+    right:5%;
+    width: 90%;
+    // padding: 15px;
+    display: flex;
+    // flex-direction: row;
+    align-items: center;
+    align-content: center;
+    // z-index: 1000;
+    transition: 0.5s;
+  }
+  
+  .my-navbar a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    // font-size: 15px;
+  }
+  
+  .my-navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .my-navbar-nav {
+    margin-left: auto;
+    // display: flex;
+    // flex-direction: column;
+  }
+  
+
+  .my-nav-link{
+    // margin: 135px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+  .my-nav-link:hover{
+    background-color: black;
+    transition: 0.5s;
+  }
+
+  .navbar-toggle-label {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+
+  @media screen and (max-width: 768px) {
+
+    .my-navbar {
+      flex-direction: column;
+      // align-items: flex-start;
+      // padding: 10px;
+      width: 85%;
+      // background-color: red;
+    }
+
+    .my-navbar-nav {
+      border-radius: 5px;
+      margin-top: 30px;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      background-color: rgba(255,255,255,0.5);
+
+    }
+
+    .my-nav-link:hover{
+      // background-color: white;
+      // width: 85%;
+      border: 1px solid black;
+      transition: 0.5s;
+    }
+
+    .navbar-toggle {
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+  .navbar-toggle-label {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+}
+  
+
+  // .navbar-toggle-label {
+  //   display: block;
+  //   position: absolute;
+  //   top: 10px;
+  //   right: 10px;
+  //   cursor: pointer;
+  // }
+  
+
+  
+ 
+//   @media screen and (max-width: 768px) {
+
+  
+//     .navbar-toggle-label {
+//       display: block;
+//       position: absolute;
+//       top: 10px;
+//       right: 10px;
+//       cursor: pointer;
+//     }
+  
+//     .navbar-nav {
+//       display: none;
+//       position: absolute;
+//       top: 70px;
+//       left: 0;
+//       width: 100%;
+//       background-color: rgba(255, 255, 255, 0.5);
+//       padding: 10px;
+//       border-radius: 5px;
+//     }
+  
+//     .navbar-toggle:checked ~ .navbar-nav {
+//       display: block;
+//     }
+//   }
+
+
+
+/* Example SCSS for the chatbot component */
+
+$primary-color: #007bff;
+$bot-message-color: #f9e2fc;
+$user-message-color: #dff9fb;
+
+.chatbot-container {
+  max-width: 400px;
+  margin: 0 auto;
+
+  .chat-window {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+
+    .message {
+      padding: 8px;
+      margin-bottom: 8px;
+      border-radius: 4px;
+
+      &.user {
+        background-color: $user-message-color;
+      }
+
+      &.bot {
+        background-color: $bot-message-color;
+      }
+    }
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+    input {
+      flex: 1;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      margin-left: 10px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: $primary-color;
+    }
+  }
+}

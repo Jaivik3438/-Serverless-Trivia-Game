@@ -1,0 +1,121 @@
+$text-color:white;
+
+body{
+    display: block;
+    background-color: gray;
+}
+
+.home-main{
+    width: fit-content;
+    margin: auto;
+
+}
+
+.sidebyside{
+    display: flex;
+    flex-direction: row;
+}
+
+.center{
+    display: flex;
+    margin: auto;
+}
+
+.title{
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    width: fit-content;
+    color: $text-color;
+}
+
+.profile-container{
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+    // background-color: gray;
+    border-radius: 10px;
+    // background-color: rgba(100,100,100,0.5);
+    width: 1200px;
+    height: 800px;
+    padding: 100px;
+    // background-color: pink;
+}
+
+.update-profile{
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 120px;
+}
+
+.button-classic{
+    border: 1px;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    transition:  0.3s ease;
+
+}
+
+.button-classic:hover{
+    transition:  0.3s ease;
+    box-shadow: 0px 0px 10px 10px gray;
+    cursor: pointer
+}
+
+.dashboard{
+    position: relative;
+}
+
+.pd-10{
+    padding: 5px;
+}
+
+
+
+// User staticstics styles
+
+
+// .flip-container {
+//     perspective: 1000px;
+//     width: 100%;
+//     height: 100%;
+//     cursor: pointer;
+  
+//     .flipper {
+//       transition: 0.6s;
+//       transform-style: preserve-3d;
+//       position: relative;
+//       width: 100%;
+//       height: 100%;
+  
+//       .front,
+//       .back {
+//         position: absolute;
+//         width: 100%;
+//         height: 100%;
+//         backface-visibility: hidden;
+//       }
+  
+//       .front {
+//         z-index: 2;
+//       }
+  
+//       .back {
+//         transform: rotateY(180deg);
+//       }
+//     }
+  
+//     &.flipped {
+//       .flipper {
+//         transform: rotateY(180deg);
+//       }
+//     }
+//   }
+  

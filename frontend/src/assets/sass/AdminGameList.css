@@ -1,0 +1,30 @@
+.game-body{
+    background: linear-gradient(135deg, #FF0066, #8338EC, #FFFFFF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.title{
+    color: white;
+    font-size: 40px;
+}
+.game-list-container {
+    margin: 20px;
+    /* padding: 20px; */
+  }
+  
+  .game-list-container button {
+    margin-bottom: 10px;
+  }
+  
+  .table-container {
+    background: white;
+    /* padding: 20px; */
+    /* margin: 20px; */
+  }
+  
+  .table-cell-id {
+    width: 100px;
+  }
+  

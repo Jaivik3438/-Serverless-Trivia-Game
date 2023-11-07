@@ -1,0 +1,77 @@
+body {
+  display: block;
+  /* background-color: gray; */
+}
+
+.home-main {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+.sidebyside {
+  display: flex;
+  flex-direction: row;
+}
+
+.center {
+  display: flex;
+  margin: auto;
+}
+
+.title {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+}
+
+.profile-container {
+  margin: auto;
+  margin-top: 100px;
+  color: white;
+  background-color: gray;
+  border-radius: 10px;
+  width: 1200px;
+  height: 800px;
+  padding: 100px;
+}
+
+.update-profile {
+  background-color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  margin: auto;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 120px;
+}
+
+.button-classic {
+  border: 1px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.button-classic:hover {
+  transition: 0.3s ease;
+  box-shadow: 0px 0px 10px 10px gray;
+  cursor: pointer;
+}
+
+.dashboard {
+  position: relative;
+}
+
+.pd-10 {
+  padding: 5px;
+}/*# sourceMappingURL=style.css.map */

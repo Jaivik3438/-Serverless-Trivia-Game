@@ -1,0 +1,6 @@
+functions-framework==3.*
+requests==2.28.2
+firebase-admin
+google-cloud-pubsub
+openai
+sendgrid
